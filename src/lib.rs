@@ -16,7 +16,7 @@ impl Ctf {
         };
 
         // TODO: Check the API endpoint actually exists and returns valid JSON
-        let body = construction.http_client.get(&version_url).send()
+        let body = construction.http_client.get(&version_url).send();
 
         construction
     }
